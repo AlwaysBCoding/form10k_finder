@@ -1,4 +1,6 @@
-<%= form_tag "/search", :class => "navbar-form pull-left" do %>
+<%= form_tag "/search", :class => "navbar-form pull-left", :target => "_blank" do %>
   <%= text_field_tag "ticker_symbol", "", :class => "span2" %>
   <button type="submit" class="btn">Submit</button>
 <% end %>
+
+<div id="linkDiv"></div>	
