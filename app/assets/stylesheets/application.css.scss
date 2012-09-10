@@ -1,0 +1,12 @@
+// First import journal variables
+@import "bootswatch/spacelab/variables";
+
+// Then bootstrap itself
+@import "bootstrap";
+
+// And finally bootswatch style itself
+@import "bootswatch/spacelab/bootswatch";
+
+form {
+	margin: 300px;
+}
