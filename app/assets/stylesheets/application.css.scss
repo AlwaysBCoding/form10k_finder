@@ -7,10 +7,20 @@
 // And finally bootswatch style itself
 @import "bootswatch/spacelab/bootswatch";
 
-form {
-	margin: 300px;
+#container {
+	max-width: 960px;
+	min-width: 960px;
+	margin: 0 auto;
+	
+	h1 {
+	text-align: center; }
+	
+	form {
+	margin-left: 375px; }
+
 }
 
-#linkDiv {
-	display: none;
+.well-large {
+	height: 250px;
 }
+

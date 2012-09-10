@@ -1,6 +1,12 @@
+<div class="well well-large">
+	<div id="container">
+<h1>Enter a stock symbol and get the most recent 10-K</h1>
+<hr />
+
 <%= form_tag "/search", :class => "navbar-form pull-left", :target => "_blank" do %>
   <%= text_field_tag "ticker_symbol", "", :class => "span2" %>
   <button type="submit" class="btn">Submit</button>
 <% end %>
 
-<div id="linkDiv"></div>	
+	</div> <!-- container -->
+</div>	<!-- well well-large -- >
